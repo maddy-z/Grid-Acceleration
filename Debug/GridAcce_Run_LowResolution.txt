@@ -1,0 +1,18 @@
+./Grid\ Acceleration.exe -input scene1_cube_mesh.txt -output LowResolution_Results/scene1_output.tga -size 300 300
+./Grid\ Acceleration.exe -input scene1_cube_mesh.txt -output LowResolution_Results/scene1_noshadows_output.tga -size 300 300 -no_shadows 
+./Grid\ Acceleration.exe -input scene2_bunny_mesh_200.txt -output LowResolution_Results/scene2_output.tga -size 300 300
+./Grid\ Acceleration.exe -input scene2_bunny_mesh_200.txt -output LowResolution_Results/scene2_noshadows_output.tga -size 300 300 -no_shadows 
+./Grid\ Acceleration.exe -input scene3_rasterize_sphere_5x5x5.txt -output LowResolution_Results/scene3_output.tga -size 300 300
+./Grid\ Acceleration.exe -input scene3_rasterize_sphere_5x5x5.txt -output LowResolution_Results/scene3_noshadows_output.tga -size 300 300 -no_shadows 
+./Grid\ Acceleration.exe -input scene4_rasterize_sphere_5x5x5.txt -output LowResolution_Results/scene4_output.tga -size 300 300
+./Grid\ Acceleration.exe -input scene4_rasterize_sphere_5x5x5.txt -output LowResolution_Results/scene4_noshadows_output.tga -size 300 300 -no_shadows 
+./Grid\ Acceleration.exe -input scene5_rasterize_sphere_20x20x20.txt -output LowResolution_Results/scene5_output.tga -size 300 300
+./Grid\ Acceleration.exe -input scene5_rasterize_sphere_20x20x20.txt -output LowResolution_Results/scene5_noshadows_output.tga -size 300 300 -no_shadows 
+./Grid\ Acceleration.exe -input scene2_bunny_mesh_200.txt -output LowResolution_Results/scene2_visual_grid_10x10x10_output.tga -size 300 300 -grid 10 10 10 -visualize_grid -no_shadows 
+./Grid\ Acceleration.exe -input scene6_bunny_mesh_1k.txt -output LowResolution_Results/scene6_visual_grid_20x20x20_output.tga -size 300 300 -grid 20 20 20 -visualize_grid -no_shadows 
+./Grid\ Acceleration.exe -input scene7_bunny_mesh_5k.txt -output LowResolution_Results/scene7_visual_grid_30x30x30_output.tga -size 300 300 -grid 30 30 30 -visualize_grid -no_shadows 
+./Grid\ Acceleration.exe -input scene8_bunny_mesh_40k.txt -output LowResolution_Results/scene8_visual_grid_50x50x50_output.tga -size 300 300 -grid 50 50 50 -visualize_grid -no_shadows 
+./Grid\ Acceleration.exe -input scene2_bunny_mesh_200.txt -output LowResolution_Results/scene2_10x10x10_output.tga -size 300 300 -grid 10 10 10
+./Grid\ Acceleration.exe -input scene6_bunny_mesh_1k.txt -output LowResolution_Results/scene6_20x20x20_output.tga -size 300 300 -grid 20 20 20
+./Grid\ Acceleration.exe -input scene7_bunny_mesh_5k.txt -output LowResolution_Results/scene7_30x30x30_output.tga -size 300 300 -grid 30 30 30
+./Grid\ Acceleration.exe -input scene8_bunny_mesh_40k.txt -output LowResolution_Results/scene8_50x50x50_output.tga -size 300 300 -grid 50 50 50

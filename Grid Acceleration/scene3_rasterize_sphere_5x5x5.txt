@@ -1,0 +1,48 @@
+OrthographicCamera {
+    center 0 0 10
+    direction 0 0 -1
+    up 0 1 0
+    size 4
+}
+
+Lights {
+    numLights 2
+
+    DirectionalLight {
+        direction -0.2 -1 -0.4
+	color 0.7 0.7 0.7
+    }
+
+    DirectionalLight {
+        direction 7 -5 -5
+	color 0.3 0.3 0.3
+    }
+}
+
+Background {
+    color 1 0 0
+    ambientLight 0.1 0.1 0.1 
+}
+
+Materials {
+    numMaterials 1
+
+    PhongMaterial {
+        diffuseColor 1 1 1
+    }
+}
+
+Group {
+    numObjects 1
+
+    MaterialIndex 0
+    Grid {
+        min -1.5 -1.5 -1.5
+	max  1.5  1.5  1.5
+        numCells 5 5 5
+	rasterizeSphere {
+	    center 0 0 0 
+	    radius 1.5
+	}
+    }
+}
